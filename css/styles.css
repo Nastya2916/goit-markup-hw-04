@@ -95,6 +95,8 @@ ul {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link {
@@ -116,6 +118,8 @@ ul {
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-title-effective {
@@ -155,6 +159,8 @@ ul {
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .visually-hidden {
   position: absolute;
@@ -175,6 +181,25 @@ ul {
 .main-item {
   width: calc((100% - 72px) / 4);
 }
+/*пробная секция вторая, не могу пока разобраться*/
+.icon-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+.svg-icon-two {
+  width: 64px;
+  height: 64px;
+}
+
+/*------------------------*/
 .main-menu {
   display: flex;
   gap: 24px;
@@ -206,12 +231,41 @@ ul {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .main-paragraph {
   text-align: start;
 }
 .paragraph-section-three {
   text-align: center;
+}
+.section-three-icon {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  color: #4d5ae5;
+}
+.section-item-icon {
+  width: 40px;
+  height: 40px;
+}
+.section-tree-list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  gap: 32px;
+}
+.section-tree-list {
+  fill: #4d5ae5;
+}
+.section-tree-list:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-two {
@@ -338,4 +392,40 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   max-width: 264px;
+}
+.footer-icon {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.section-footer-icon {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  color: #4d5ae5;
+}
+.section-item-footer {
+  width: 40px;
+  height: 40px;
+}
+.section-footer-list {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  gap: 32px;
+}
+.section-footer-list {
+  fill: #4d5ae5;
+}
+.section-footer-list:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
