@@ -420,8 +420,6 @@ ul {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
-  align-items: baseline;
-  margin-right: 120px;
 }
 .span-web {
   color: #f4f4fd;
@@ -476,7 +474,10 @@ ul {
 .footer-conteiner {
   display: flex;
 }
-
+.footer-conteiner {
+  align-items: baseline;
+  margin-right: 120px;
+}
 .conteiner-footer-link {
   margin-left: 120px;
 }
