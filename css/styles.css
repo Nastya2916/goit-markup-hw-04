@@ -68,7 +68,7 @@ button {
   max-width: 1440px;
 }
 
-header {
+.header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -362,6 +362,7 @@ ul {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 40px 32px;
 }
 .section-content-wrap {
   position: relative;
@@ -442,6 +443,9 @@ ul {
   color: #fff;
   margin-bottom: 16px;
   font-weight: 500;
+}
+.logo-footer {
+  margin-right: 120px;
 }
 .section-footer-icon {
   display: flex;
